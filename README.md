@@ -4,6 +4,8 @@ Just an idea, not yet working properly. The issue is that when using `bedrock` i
 
 We are not able to mark the end of the response data with `("avante.llm").on_complete` function in `callback` as it will rise an error `nvim_buf_get_name must not be called in a lua loop callback`.
 
+![image](https://github.com/user-attachments/assets/aedc663f-b172-4fe5-a7ba-ffef3574c9f0)
+
 ### Requirements
 
 - Rust toolchain
