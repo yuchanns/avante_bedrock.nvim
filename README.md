@@ -1,6 +1,8 @@
-## Avante.nvim Bedrock Provider
+# Archived Warning
 
-**Archived Warning: Since the avante.nvim has builtin support for bedrock, for your information: https://github.com/yuchanns/nvim/blob/37e3cb57a949de1e1626429e88a7403086ec64b3/lua/plugins/avante.lua#L21-L29, this is archived**
+**Since the avante.nvim has builtin support for bedrock, for your information: https://github.com/yuchanns/nvim/blob/37e3cb57a949de1e1626429e88a7403086ec64b3/lua/plugins/avante.lua#L21-L29, this is archived**
+
+## Avante.nvim Bedrock Provider
 
 Just an idea, not yet working properly. The issue is that when using `bedrock` in `plenary.nvim`, part of the data arrives through `on_stdout` and the last small portion arrives through `callback`.
 
