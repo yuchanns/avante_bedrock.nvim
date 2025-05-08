@@ -1,5 +1,7 @@
 ## Avante.nvim Bedrock Provider
 
+**Archived Warning: Since the avante.nvim has builtin support for bedrock, for your information: https://github.com/yuchanns/nvim/blob/37e3cb57a949de1e1626429e88a7403086ec64b3/lua/plugins/avante.lua#L21-L29, this is archived**
+
 Just an idea, not yet working properly. The issue is that when using `bedrock` in `plenary.nvim`, part of the data arrives through `on_stdout` and the last small portion arrives through `callback`.
 
 We are not able to mark the end of the response data with `("avante.llm").on_complete` function in `callback` as it will rise an error `nvim_buf_get_name must not be called in a lua loop callback`.
